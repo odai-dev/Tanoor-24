@@ -1,0 +1,90 @@
+:root {
+  --primary-color: #D45A32;
+  --secondary-color: #F2C14E;
+  --accent-color: #9C6644;
+
+  --background-color: #1E1E1E;
+  --card-background: #2C2C2C;
+  --highlight-background: #32271F;
+
+  --text-color: #FAF3E0;
+  --text-muted: #C8BFAE;
+  --heading-color: #FFD79A;
+
+  --border-color: rgba(255, 255, 255, 0.08);
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --hover-color: #E26A2C;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    margin:  0 0 50px 0;
+    background-color: var(--highlight-background);
+    
+}
+header nav {
+    display: flex;
+    justify-content:space-around;
+    padding: 1rem;
+    width: 60%;
+    margin: auto;
+}
+button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    cursor: pointer;
+    width: 100px;
+    padding: 0.7em;
+    font-size: larg;
+    border-radius: 5px;
+    transition: 0.1s ease all;
+    margin: 10px;
+    border: none;
+}
+button:hover {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    transform: scale(1.1);
+}
+#CTABtn {
+    width: 150px;
+    padding: 1em;
+    margin:  5rem auto ;
+    display: block;
+}
+#CTABtn:hover {
+    border-radius: 2px;
+    transform: scale(1.1);
+}
+h1 {
+    color: var(--heading-color);
+    text-align: center;
+    
+}
+h2 {
+    color: var(--accent-color);
+    background-color: var(--card-background);
+    width: fit-content;
+    margin: 0 auto 20px auto;
+}
+b {
+    color: var(--accent-color);
+}

@@ -102,10 +102,11 @@ b {
     width: 300px;
     padding: 10px;
     background-color: var(--card-background);
-    margin: 0.1em;
+    margin: 0.1em auto;
     border: 2px solid var(--highlight-background);
     box-shadow: 5px 10px 5px var(--shadow-color);
     margin-bottom: 10px;
+    
 }
 
 .menuDiv img {

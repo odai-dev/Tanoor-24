@@ -12,6 +12,9 @@ const homeBtn = document.getElementById("homeBtn");
 const menuBtn = document.getElementById("menuBtn");
 const aboutBtn = document.getElementById("aboutBtn");
 
+const CTABtn = document.getElementById("CTABtn");
+
+
 menuBtn.addEventListener('click', ()=> {
     contentDiv.innerHTML = "";
     contentDiv.appendChild(loadMenu());
@@ -19,6 +22,10 @@ menuBtn.addEventListener('click', ()=> {
 homeBtn.addEventListener('click', ()=> {
     contentDiv.innerHTML = "";
     contentDiv.appendChild(homeDiv);
+})
+CTABtn.addEventListener('click', ()=> {
+    contentDiv.innerHTML = "";
+    contentDiv.appendChild(loadMenu());
 })
 aboutBtn.addEventListener('click', ()=> {
     contentDiv.innerHTML = "";

@@ -31,6 +31,5 @@ export const loadAbout = ()=> {
     aboutDiv.appendChild(p3);
 
 
-
     return aboutDiv;
 }
